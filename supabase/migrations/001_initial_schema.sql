@@ -161,8 +161,3 @@ CREATE TABLE style_learning (
 
 ALTER TABLE style_learning ENABLE ROW LEVEL SECURITY;
 CREATE POLICY "style_learning: own rows" ON style_learning USING (auth.uid() = user_id);
-
--- STORAGE BUCKETS (run via Supabase Dashboard or CLI)
--- INSERT INTO storage.buckets (id, name, public) VALUES ('garments', 'garments', true);
--- INSERT INTO storage.buckets (id, name, public) VALUES ('references', 'references', true);
--- INSERT INTO storage.buckets (id, name, public) VALUES ('avatars', 'avatars', true);
