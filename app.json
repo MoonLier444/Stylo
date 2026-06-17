@@ -56,6 +56,12 @@
         }
       ]
     ],
-    "scheme": "stylo"
+    "scheme": "stylo",
+    "extra": {
+      "eas": {
+        "projectId": "stylo-gabrielsanchez12"
+      }
+    },
+    "owner": "gabrielsanchez12"
   }
 }
