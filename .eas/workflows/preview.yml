@@ -1,0 +1,14 @@
+name: Preview Build
+
+on:
+  push:
+    branches:
+      - claude/tender-ptolemy-jM7gF
+
+jobs:
+  build:
+    name: Build Android Preview
+    type: build
+    params:
+      platform: android
+      profile: preview
